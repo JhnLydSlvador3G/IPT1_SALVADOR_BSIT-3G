@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  background: url(bd1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li, a{
+  font-weight: 500;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 1%;
+}
+.nav_title{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+.nav_title h1{
+  font-weight: 700;
+  font-style: normal;
+  background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav_link{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding-right: 40px;
+}
+.nav_link li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_link li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+  background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home{
+  height: 30rem;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5%;
+}
+.homeintro{
+  max-width: 700px;
+}
+.homeintro h3{
+  font-size: 50px;
+  font-weight: 600;
+  color: grey;
+}
+.homeintro h1{
+  background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight: 800;
+}
+.homeintro p{
+  font-size: 30px;
+  font-weight: 400;
+  color: grey;
+  text-align: justify;
+}
+.homeintro .btn{
+  width: 500px;
+  height: 30px;
+}
+.btn a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+  background: rgb(33, 88, 131);
+  border: 1px solid rgb(136, 189, 230);
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.btn a:hover{
+  background: rgb(136, 189, 230);
+  color: black;
+}
+.images img{
+  height: 40rem;
+  width: 28rem;
+}
