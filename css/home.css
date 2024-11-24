@@ -7,12 +7,14 @@
   font-style: normal;
 }
 body{
-  background: url(bd1.jpg);
+  background: url(/images/bd1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 70vh;
+  margin: 0;
 }
 li, a{
-  font-weight: 500;
+  font-weight: 800;
   font-size: 20px;
   color: grey;
   text-decoration: none;
@@ -58,13 +60,18 @@ header{
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+
+/*content*/
 .home{
-  height: 30rem;
+  height: 80vh;
   display: flex;
   gap: 40px;
   align-items: center;
   justify-content: center;
-  padding: 5px 5%;
+
 }
 .homeintro{
   max-width: 700px;
@@ -96,22 +103,30 @@ header{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 100%;
   background: rgb(33, 88, 131);
   border: 1px solid rgb(136, 189, 230);
-  border-radius: 20px;
+  border-radius: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
-  letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 30px;
+  padding: 15px;
 }
 .btn a:hover{
   background: rgb(136, 189, 230);
   color: black;
 }
 .images img{
-  height: 40rem;
+  height: 95vh;
   width: 28rem;
+  margin-bottom: -40px;
+}
+.fa-brands{
+  margin: 20px;
+  font-size: 40px;
+  color: #215883;
+}
+.fa-brands:hover{
+  transform: scale(1.5); 
+  color: rgb(136, 189, 230);
 }
