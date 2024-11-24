@@ -7,10 +7,9 @@
   font-style: normal;
 }
 body{
-  background: url(/images/bd1.jpg);
+  background-image: url(/images/bd1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
   margin: 0;
 }
 li, a{
@@ -66,12 +65,12 @@ header{
 
 /*content*/
 .home{
+  position: relative;
   height: 80vh;
   display: flex;
   gap: 40px;
   align-items: center;
   justify-content: center;
-
 }
 .homeintro{
   max-width: 700px;
@@ -116,10 +115,15 @@ header{
   background: rgb(136, 189, 230);
   color: black;
 }
+.images{
+  background:linear-gradient(rgba(213, 213, 213, 0.271), rgba(149, 148, 148, 0.271), rgba(128, 128, 128, 0.571));
+  margin-bottom: -40px;
+  border-radius: 50%;
+  padding: 0 40px 0 70px;
+}
 .images img{
   height: 95vh;
   width: 28rem;
-  margin-bottom: -40px;
 }
 .fa-brands{
   margin: 20px;
@@ -129,4 +133,15 @@ header{
 .fa-brands:hover{
   transform: scale(1.5); 
   color: rgb(136, 189, 230);
+}
+
+
+
+
+.about{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
 }
