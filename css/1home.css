@@ -1,3 +1,4 @@
+/*nvabar UwU*/
 *{
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +11,15 @@ body{
   background-image: url(/images/bd1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
+  margin: 0; 
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
 }
 li, a{
   font-weight: 800;
@@ -25,14 +34,12 @@ header{
   padding: 10px 1%;
 }
 .nav_title{
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
   display: flex;
   gap: 10px;
 }
-.nav_title h1{
-  font-weight: 700;
+.nav_title a{
+  font-size: 40px;
+  font-weight: 800;
   font-style: normal;
   background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
   -webkit-background-clip: text;
@@ -125,23 +132,56 @@ header{
   height: 95vh;
   width: 28rem;
 }
-.fa-brands{
-  margin: 20px;
-  font-size: 40px;
-  color: #215883;
-}
-.fa-brands:hover{
-  transform: scale(1.5); 
-  color: rgb(136, 189, 230);
-}
 
 
 
-
+/*2nd intro*/
 .about{
   display: flex;
   gap: 40px;
   align-items: center;
   justify-content: center;
   height: 110vh;
+}
+.container h1{
+  width: fit-content;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131)) ;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container h2{
+  text-align: center;
+}
+.container p{
+  width: 1200px;
+  font-size: 40px;
+  font-weight: 600;
+  color: grey;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn2 a{
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: rgb(33, 88, 131);
+  border: 1px solid rgb(136, 189, 230);
+  border-radius: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 15px;
+}
+.btn2 a:hover{
+  background: rgb(136, 189, 230);
+  color: black;
 }

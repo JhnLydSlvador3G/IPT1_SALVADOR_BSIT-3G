@@ -1,0 +1,82 @@
+/*nvbar*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  body{
+    background-image: url(/images/bd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+  }
+  li, a{
+    font-weight: 800;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+  }
+  .nav_title{
+    display: flex;
+    gap: 10px;
+  }
+  .nav_title a{
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .nav_link{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-right: 40px;
+  }
+  .nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_link li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav_link li a:hover{
+    background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
+
+  .container h1{
+    background: linear-gradient(to right,rgb(33, 88, 131), rgb(136, 189, 230), rgb(33, 88, 131));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+   margin: 40px 0 40px 0;
+  }
